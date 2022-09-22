@@ -1,0 +1,20 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+.container{
+  width:375px;
+  height:100vh;
+  margin:0px 37%;
+}
+.header {
+  height: 92px;
+ width: 355px;
+ background-color: #3C3A39;
+ display:flex;
+ justify-content: space-between;
+ align-items: flex-end;
+ padding:10px;
+ color:white;
+}
+
