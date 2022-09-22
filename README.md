@@ -2,14 +2,14 @@
 
 # Project Name
 
-> Description the project.
+Mobile Portofolio Microverse
+
+This is our mobile portofolio project in Microverse's module one. In this project, things like setting up html and css liters, GitHub Actions, and following GitHub flow are covered.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+Html and CSS ,Linters
 
 ## Live Demo (if available)
 
@@ -40,17 +40,12 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 Abdi Bekele
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: https://github.com/Lul-Abdifan?tab=repositories
 
-👤 **Author2**
+- LinkedIn:https://www.linkedin.com/in/abdi-bekele-02927a223/
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -64,12 +59,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
 
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
