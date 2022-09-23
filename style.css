@@ -3,26 +3,39 @@
   margin: 0;
   padding: 0;
 }
-
-.container {
-  width: 375px;
-  margin: 0 37%;
+body{
+margin:0% 37%;
 }
 
 header {
+ 
+ 
   height: 92px;
   width: 355px;
   background-color: #3c3a39;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+
   padding: 10px;
+  color: white;
+}
+ nav ul{
+  display: flex;
+  justify-content:space-between;
+  margin-top:75px;
+   
+}
+nav ul li{
+  list-style: none;
+ 
+}
+nav ul li a{
+  text-decoration:none ;
   color: white;
 }
 
 .headline {
   width: 375px;
   height: 590px;
+  background-image: url(./assets/images/back.png);
   background-color: #1c1a19;
 }
 
