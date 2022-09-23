@@ -35,8 +35,10 @@ nav ul li a{
 .headline {
   width: 375px;
   height: 590px;
-  background-image: url(./assets/images/back.png);
-  background-color: #1c1a19;
+  background: url("assets/images/background.png");
+  background-repeat: no-repeat;
+  background-position: 230px 230px;
+  background-color: #1C1A19;
 }
 
 .heyThere {
