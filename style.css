@@ -69,6 +69,7 @@ nav ul li a{
 .links ul {
   display: flex;
   flex-direction: raw;
+  align-items: center;
   margin-top: 25px;
   margin-left: 45px;
   width: 300px;
