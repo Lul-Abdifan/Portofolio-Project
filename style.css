@@ -3,32 +3,31 @@
   margin: 0;
   padding: 0;
 }
-body{
-margin:0% 37%;
+
+body {
+  margin: 0% 37%;
 }
 
 header {
- 
- 
   height: 92px;
   width: 355px;
   background-color: #3c3a39;
-
   padding: 10px;
   color: white;
 }
- nav ul{
+
+nav ul {
   display: flex;
-  justify-content:space-between;
-  margin-top:75px;
-   
+  justify-content: space-between;
+  margin-top: 75px;
 }
-nav ul li{
+
+nav ul li {
   list-style: none;
- 
 }
-nav ul li a{
-  text-decoration:none ;
+
+nav ul li a {
+  text-decoration: none;
   color: white;
 }
 
@@ -38,7 +37,7 @@ nav ul li a{
   background: url("assets/images/background.png");
   background-repeat: no-repeat;
   background-position: 230px 230px;
-  background-color: #1C1A19;
+  background-color: #1c1a19;
 }
 
 .heyThere {
