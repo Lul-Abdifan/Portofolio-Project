@@ -150,6 +150,7 @@ font-weight: bold;
 }
 .cards{
   margin-top:24px;
+
   
   }
   
@@ -158,12 +159,15 @@ font-weight: bold;
   background-repeat: no-repeat;
   width:327px;
   font-family: 'Crete Round', serif;
+ 
 
 }
 .cards-header{
   padding-top: 110px;
   size:32px;
   padding-bottom: 20px;
+  margin-left:-32px;
+ 
   color:#FFFFFF;
   padding-left: 40px;
   font-size: 30px;;
@@ -174,7 +178,13 @@ font-weight: bold;
 
 .cards_description{
   padding-bottom:15px;
+  color:#FFFFFF;
+  font-weight:lighter;
+  font-size:16px;
+  margin-left: 12px;
+  
  }
+ 
  .card_buttons{
   padding-left:13px;
  }
@@ -193,7 +203,7 @@ height:48px;
 border:1px solid #FF6B00;
 font-weight: bold;
 font-size: 17px;
-margin-top:25px;
+margin-top:11px;
 }
 
 .about_Me{
@@ -279,6 +289,9 @@ margin-top:25px;
  }
  #skill #theLast {
    padding-bottom:114px;
+ }
+ Button{
+  cursor: pointer;
  }
  
  
