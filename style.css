@@ -14,10 +14,11 @@ header {
   background-color: #3c3a39;
   padding: 10px;
   color: white;
-  }
-  header .myLogo{
-    font-weight: bolder;
-  }
+}
+
+header .myLogo {
+  font-weight: bolder;
+}
 
 nav ul {
   display: flex;
@@ -45,18 +46,14 @@ nav ul li a {
 
 .heyThere {
   color: #ff6800;
-
   font-size: 40px;
   margin-bottom: 10px;
   margin-left: 30px;
- 
-
   padding-top: 120px;
 }
-.heyThere h1{
 
+.heyThere h1 {
   letter-spacing: 0.5px;
-   
   font-family: 'Crete Round', serif;
   font-weight: lighter;
 }
@@ -67,8 +64,6 @@ nav ul li a {
   height: 24px;
   font-size: 24px;
   font-weight: bolder;
-
-  
 }
 
 .description p {
@@ -86,13 +81,13 @@ nav ul li a {
   margin-top: 25px;
   margin-left: 45px;
   width: 300px;
-
 }
 
 .links ul li {
   list-style-type: none;
   margin-left: 10px;
 }
+
 .links ul li a {
-  color:white
+  color: white;
 }
