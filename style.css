@@ -261,6 +261,11 @@ button {
   margin-top: 24px;
 }
 
+.title_container img {
+  width: 18px;
+  height: 18px;
+}
+
 #icon_exprex img {
   padding-right: 15px;
   width: 18px;
@@ -290,22 +295,21 @@ button {
 #skill #theLast {
   padding-bottom: 114px;
 }
-.cards_buttons ul,.card_buttons ul{
-  display:flex;
+
+.cards_buttons ul,
+.card_buttons ul {
+  display: flex;
   flex-direction: row;
-  gap:10px;
+  gap: 10px;
 }
-.cards_buttons ul li,.card_buttons ul li{
+
+.cards_buttons ul li,
+.card_buttons ul li {
   list-style: none;
 }
-.title_container{
-  display:flex;
 
+.title_container {
+  display: flex;
   align-items: center;
-  gap:10px;
- 
-}
-.title_container img{
-  width:18px;
-  height:18px;
+  gap: 10px;
 }
