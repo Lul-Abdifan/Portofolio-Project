@@ -103,8 +103,10 @@ text-align: center;
 padding-top:120px;
 padding-bottom:104px;
 color:#1C1A19;
-font-size: 35px;;
-letter-spacing: 1px;;
+font-size: 30px;
+ font-weight:400;
+letter-spacing: 1px;
+font-family: 'Crete Round', serif;
 }
 .works-Section
  .cards{
@@ -114,6 +116,8 @@ letter-spacing: 1px;;
 .card-title{
   padding-top:25px;
   padding-bottom:10px;
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
 
 }
 .card1_description{
@@ -153,6 +157,8 @@ font-weight: bold;
   background-image: url("./assets/images/works-background.png");
   background-repeat: no-repeat;
   width:327px;
+  font-family: 'Crete Round', serif;
+
 }
 .cards-header{
   padding-top: 110px;
