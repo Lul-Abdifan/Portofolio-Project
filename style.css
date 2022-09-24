@@ -246,6 +246,7 @@ button {
   flex-direction: column;
   align-items: center;
   margin-bottom: 44px;
+  padding-bottom: 100px;
 }
 
 .abtMedescription {
@@ -297,4 +298,14 @@ button {
 .cards_buttons ul li,.card_buttons ul li{
   list-style: none;
 }
+.title_container{
+  display:flex;
 
+  align-items: center;
+  gap:10px;
+ 
+}
+.title_container img{
+  width:18px;
+  height:18px;
+}
