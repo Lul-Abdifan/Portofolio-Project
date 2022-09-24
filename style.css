@@ -224,6 +224,7 @@ margin-top:11px;
    padding-top:140px;
    padding-bottom: 30px;;
    font-size: 60px;
+   font-family: 'Crete Round', serif;
    
    color: #FF6B00;}
  
@@ -256,6 +257,11 @@ margin-top:11px;
    margin-bottom:44px;
  
  }
+ .abtMedescription{
+  color:#F4F5F7;
+  font-weight: 400;
+  font-size:16px;
+ }
  
  #icon_exprex{
    display:flex;
@@ -272,6 +278,7 @@ margin-top:11px;
  
  #icon_exprex h1{
  color: #FFFFFF;
+ font-family: "InaiMathi";
  }
  .experiance ul  {
    display: flex;
