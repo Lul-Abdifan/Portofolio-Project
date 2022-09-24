@@ -39,6 +39,7 @@
     "nib": "^1.2.0",
     "once": "^1.4.0",
     "path-is-absolute": "^1.0.1",
+    "postcss": "^8.4.16",
     "sax": "^1.2.4",
     "source-map": "^0.7.4",
     "stylus": "^0.59.0",
