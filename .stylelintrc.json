@@ -1,4 +1,6 @@
-{
+
+
+  {
     "extends": ["stylelint-config-standard"],
     "plugins": ["stylelint-scss", "stylelint-csstree-validator"],
     "rules": {
@@ -19,4 +21,5 @@
     "csstree/validator": true,
     "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css"]
   }
+  
   
