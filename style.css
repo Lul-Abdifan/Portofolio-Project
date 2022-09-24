@@ -289,3 +289,12 @@ button {
 #skill #theLast {
   padding-bottom: 114px;
 }
+.cards_buttons ul,.card_buttons ul{
+  display:flex;
+  flex-direction: row;
+  gap:10px;
+}
+.cards_buttons ul li,.card_buttons ul li{
+  list-style: none;
+}
+
