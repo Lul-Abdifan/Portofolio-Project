@@ -91,3 +91,225 @@ nav ul li a {
 .links ul li a {
   color: white;
 }
+
+.works-Section {
+  background-color: #fff;
+  margin: 0 23px;
+}
+
+.works-Section .recentWorks_header {
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 104px;
+  color: #1c1a19;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: 'Crete Round', serif;
+}
+
+.cards {
+  margin-top: 24px;
+}
+
+.works-Section .cards {
+  display: grid;
+}
+
+.card-title {
+  padding-top: 25px;
+  padding-bottom: 10px;
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+}
+
+.card1_description {
+  padding-bottom: 15px;
+  line-height: 23px;
+}
+
+.card1 .allButtons {
+  display: flex;
+  flex-direction: column;
+}
+
+.seeProject {
+  padding-top: 20px;
+}
+
+button {
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+.seeProjectCards button {
+  background-color: #ff6b00;
+  color: #fff;
+  width: 100%;
+  height: 48px;
+  border: 1px solid #ff6b00;
+  font-weight: bold;
+  font-size: 17px;
+  margin-top: 11px;
+}
+
+#button_link,
+.seeProject button {
+  padding: 15px 15px;
+  border: 1px solid #8993a4;
+}
+
+.about_Me button {
+  margin-top: 25px;
+  padding: 10px  30px;
+  background-color: #ff6b00;
+  border: 1px solid #ff6b00;
+  display: block;
+  font-weight: bold;
+  color: #fff;
+}
+
+.seeProject a button {
+  background-color: #ff6b00;
+  color: #fff;
+  border: 1px solid #ff6b00;
+  font-weight: bold;
+}
+
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7 {
+  background-image: url("./assets/images/works-background.png");
+  background-repeat: no-repeat;
+  width: 327px;
+  font-family: 'Crete Round', serif;
+}
+
+.cards-header {
+  padding-top: 110px;
+  size: 32px;
+  padding-bottom: 20px;
+  margin-left: -32px;
+  color: #fff;
+  padding-left: 40px;
+  font-size: 30px;
+}
+
+.cards_description {
+  padding-bottom: 15px;
+  color: #fff;
+  font-weight: lighter;
+  font-size: 16px;
+  margin-left: 12px;
+}
+
+.card_buttons {
+  padding-left: 13px;
+}
+
+.card_buttons a button {
+  background-color: #8993a4;
+}
+
+.about_Me {
+  margin-top: 100px;
+  background-image: url("assets/images/aboutMeBg.png");
+  background-repeat: no-repeat;
+  background-position: 210px 340px;
+  background-color: #1c1a19;
+  width: 375px;
+}
+
+.abtMe_Header {
+  padding-top: 140px;
+  padding-bottom: 30px;
+  font-size: 60px;
+  font-family: 'Crete Round', serif;
+  color: #ff6b00;
+}
+
+.abtMe_content {
+  margin-left: 20px;
+}
+
+#lineAbtMe {
+  padding-top: 220px;
+  width: 340px;
+}
+
+.experiance {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 44px;
+  padding-bottom: 100px;
+}
+
+.abtMedescription {
+  color: #f4f5f7;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#icon_exprex {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.title_container img {
+  width: 18px;
+  height: 18px;
+}
+
+#icon_exprex img {
+  padding-right: 15px;
+  width: 18px;
+  height: 18px;
+}
+
+#icon_exprex h1 {
+  color: #fff;
+}
+
+.experiance ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.experiance ul li {
+  margin-top: 24px;
+  list-style: none;
+  font-size: 22px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+
+#skill #theLast {
+  padding-bottom: 114px;
+}
+
+.cards_buttons ul,
+.card_buttons ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.cards_buttons ul li,
+.card_buttons ul li {
+  list-style: none;
+}
+
+.title_container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
