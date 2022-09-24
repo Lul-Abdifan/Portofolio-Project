@@ -9,17 +9,20 @@ body {
 }
 
 header {
-  height: 92px;
+  height: 42px;
   width: 355px;
   background-color: #3c3a39;
   padding: 10px;
   color: white;
-}
+  }
+  header .myLogo{
+    font-weight: bolder;
+  }
 
 nav ul {
   display: flex;
   justify-content: space-between;
-  margin-top: 75px;
+  margin-top: 13.5px;
 }
 
 nav ul li {
@@ -34,7 +37,7 @@ nav ul li a {
 .headline {
   width: 375px;
   height: 590px;
-  background: url("assets/images/background.png");
+  background: url("./assets/images/background.png");
   background-repeat: no-repeat;
   background-position: 230px 230px;
   background-color: #1c1a19;
@@ -42,11 +45,15 @@ nav ul li a {
 
 .heyThere {
   color: #ff6800;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 30px;
+
+  font-size: 40px;
   margin-bottom: 10px;
   margin-left: 30px;
-  line-height: 45px;
+
+  font-weight: 50px;
+  letter-spacing: 0.5px;
+ 
+  font-family: 'Crete Round', serif;
   padding-top: 120px;
 }
 
@@ -54,7 +61,9 @@ nav ul li a {
   color: white;
   margin-left: 30px;
   height: 24px;
-  font-size: 20px;
+  font-size: 24px;
+  font-weight: bolder;
+  
 }
 
 .description p {
@@ -72,9 +81,13 @@ nav ul li a {
   margin-top: 25px;
   margin-left: 45px;
   width: 300px;
+
 }
 
 .links ul li {
   list-style-type: none;
   margin-left: 10px;
+}
+.links ul li a {
+  color:white
 }
