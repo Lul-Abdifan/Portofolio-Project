@@ -189,3 +189,92 @@ font-weight: bold;
 font-size: 17px;
 margin-top:25px;
 }
+
+.about_Me{
+  
+  
+  
+  margin-top:100px;
+ 
+  
+  background-image: url("assets/images/aboutMeBg.png");
+  background-repeat: no-repeat;
+  background-position: 170px 340px;;
+   background-color: #1C1A19;
+ 
+ }
+ 
+ .abtMe_Header{
+   padding-top:140px;
+   padding-bottom: 30px;;
+   font-size: 60px;
+   
+   color: #FF6B00;}
+ 
+   .abtMe_content{
+     margin-left:20px;
+    
+ 
+   }
+ 
+ .about_Me button{
+   margin-top:25px;
+   padding:10px  30px;
+   background-color:  #FF6B00;
+   border:1px solid #FF6B00;
+   display:block;
+   font-weight: bold;
+   color:#FFFFFF;
+   
+ }
+ #lineAbtMe{
+   padding-top:220px;
+  
+   width:280px;
+ }
+ .experiance{
+   margin-top:100px;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom:44px;
+ 
+ }
+ 
+ #icon_exprex{
+   display:flex;
+   align-items:center;
+   margin-top:24px;
+  
+ }
+ #icon_exprex img {
+   padding-right:15px;
+ 
+   width:18px;
+   height:18px;
+ }
+ 
+ #icon_exprex h1{
+ color: #FFFFFF;
+ }
+ .experiance ul  {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ 
+ 
+ }
+ .experiance ul li{
+   margin-top :24px;
+   list-style: none;
+   font-size: 22px;
+   color: #ffffff;
+   text-align: center;
+ }
+ #skill #theLast {
+   padding-bottom:114px;
+ }
+ 
+ 
+ 
+ 
