@@ -91,3 +91,101 @@ nav ul li a {
 .links ul li a {
   color: white;
 }
+
+.works-Section{
+  background-color: #FFFFFF;
+  margin:0px 23px;
+}
+.works-Section
+  .recentWorks_header{
+
+text-align: center;
+padding-top:120px;
+padding-bottom:104px;
+color:#1C1A19;
+font-size: 35px;;
+letter-spacing: 1px;;
+}
+.works-Section
+ .cards{
+  display:grid;
+ 
+}
+.card-title{
+  padding-top:25px;
+  padding-bottom:10px;
+
+}
+.card1_description{
+  padding-bottom: 15px;
+  line-height: 23px;;
+}
+.card1 .allButtons{
+  display:flex;
+  flex-direction: column;
+
+}
+.seeProject{
+  padding-top:20px;
+
+
+}
+.seeProject a button{
+  background-color: #FF6B00;
+color:#FFFFFF;
+border:1px solid #FF6B00;
+font-weight: bold;
+
+  
+}
+
+#button_link , .seeProject button{
+  padding:15px 15px;
+  border:1px solid #8993A4;
+
+}
+.cards{
+  margin-top:24px;
+  
+  }
+  
+.card2,.card3,.card4,.card5,.card6,.card7{
+  background-image: url("./assets/images/works-background.png");
+  background-repeat: no-repeat;
+  width:327px;
+}
+.cards-header{
+  padding-top: 110px;
+  size:32px;
+  padding-bottom: 20px;
+  color:#FFFFFF;
+  padding-left: 40px;
+  font-size: 30px;;
+
+  
+  
+}
+
+.cards_description{
+  padding-bottom:15px;
+ }
+ .card_buttons{
+  padding-left:13px;
+ }
+ .card_buttons a button{
+  background-color: #8993A4;
+ }
+
+
+.seeProjectCards button
+{
+background-color: #FF6B00;
+color:#FFFFFF;
+
+width:100%;
+height:48px;
+border:1px solid #FF6B00;
+font-weight: bold;
+font-size: 17px;
+margin-top:25px;
+}
