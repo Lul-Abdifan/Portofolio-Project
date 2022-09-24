@@ -92,215 +92,200 @@ nav ul li a {
   color: white;
 }
 
-.works-Section{
-  background-color: #FFFFFF;
-  margin:0px 23px;
+.works-Section {
+  background-color: #fff;
+  margin: 0 23px;
 }
-.works-Section
-  .recentWorks_header{
 
-text-align: center;
-padding-top:120px;
-padding-bottom:104px;
-color:#1C1A19;
-font-size: 30px;
- font-weight:400;
-letter-spacing: 1px;
-font-family: 'Crete Round', serif;
+.works-Section .recentWorks_header {
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 104px;
+  color: #1c1a19;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: 'Crete Round', serif;
 }
-.works-Section
- .cards{
-  display:grid;
- 
+
+.cards {
+  margin-top: 24px;
 }
-.card-title{
-  padding-top:25px;
-  padding-bottom:10px;
+
+.works-Section .cards {
+  display: grid;
+}
+
+.card-title {
+  padding-top: 25px;
+  padding-bottom: 10px;
   font-family: 'Crete Round', serif;
   font-weight: 400;
-
 }
-.card1_description{
+
+.card1_description {
   padding-bottom: 15px;
-  line-height: 23px;;
+  line-height: 23px;
 }
-.card1 .allButtons{
-  display:flex;
+
+.card1 .allButtons {
+  display: flex;
   flex-direction: column;
-
-}
-.seeProject{
-  padding-top:20px;
-
-
-}
-.seeProject a button{
-  background-color: #FF6B00;
-color:#FFFFFF;
-border:1px solid #FF6B00;
-font-weight: bold;
-
-  
 }
 
-#button_link , .seeProject button{
-  padding:15px 15px;
-  border:1px solid #8993A4;
-
+.seeProject {
+  padding-top: 20px;
 }
-.cards{
-  margin-top:24px;
 
-  
-  }
-  
-.card2,.card3,.card4,.card5,.card6,.card7{
+button {
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+.seeProjectCards button {
+  background-color: #ff6b00;
+  color: #fff;
+  width: 100%;
+  height: 48px;
+  border: 1px solid #ff6b00;
+  font-weight: bold;
+  font-size: 17px;
+  margin-top: 11px;
+}
+
+#button_link,
+.seeProject button {
+  padding: 15px 15px;
+  border: 1px solid #8993a4;
+}
+
+.about_Me button {
+  margin-top: 25px;
+  padding: 10px  30px;
+  background-color: #ff6b00;
+  border: 1px solid #ff6b00;
+  display: block;
+  font-weight: bold;
+  color: #fff;
+}
+
+.seeProject a button {
+  background-color: #ff6b00;
+  color: #fff;
+  border: 1px solid #ff6b00;
+  font-weight: bold;
+}
+
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7 {
   background-image: url("./assets/images/works-background.png");
   background-repeat: no-repeat;
-  width:327px;
+  width: 327px;
   font-family: 'Crete Round', serif;
- 
-
 }
-.cards-header{
+
+.cards-header {
   padding-top: 110px;
-  size:32px;
+  size: 32px;
   padding-bottom: 20px;
-  margin-left:-32px;
- 
-  color:#FFFFFF;
+  margin-left: -32px;
+  color: #fff;
   padding-left: 40px;
-  font-size: 30px;;
-
-  
-  
+  font-size: 30px;
 }
 
-.cards_description{
-  padding-bottom:15px;
-  color:#FFFFFF;
-  font-weight:lighter;
-  font-size:16px;
+.cards_description {
+  padding-bottom: 15px;
+  color: #fff;
+  font-weight: lighter;
+  font-size: 16px;
   margin-left: 12px;
-  
- }
- 
- .card_buttons{
-  padding-left:13px;
- }
- .card_buttons a button{
-  background-color: #8993A4;
- }
-
-
-.seeProjectCards button
-{
-background-color: #FF6B00;
-color:#FFFFFF;
-
-width:100%;
-height:48px;
-border:1px solid #FF6B00;
-font-weight: bold;
-font-size: 17px;
-margin-top:11px;
 }
 
-.about_Me{
-  
-  
-  
-  margin-top:100px;
- 
-  
+.card_buttons {
+  padding-left: 13px;
+}
+
+.card_buttons a button {
+  background-color: #8993a4;
+}
+
+.about_Me {
+  margin-top: 100px;
   background-image: url("assets/images/aboutMeBg.png");
   background-repeat: no-repeat;
-  background-position: 170px 340px;;
-   background-color: #1C1A19;
- 
- }
- 
- .abtMe_Header{
-   padding-top:140px;
-   padding-bottom: 30px;;
-   font-size: 60px;
-   font-family: 'Crete Round', serif;
-   
-   color: #FF6B00;}
- 
-   .abtMe_content{
-     margin-left:20px;
-    
- 
-   }
- 
- .about_Me button{
-   margin-top:25px;
-   padding:10px  30px;
-   background-color:  #FF6B00;
-   border:1px solid #FF6B00;
-   display:block;
-   font-weight: bold;
-   color:#FFFFFF;
-   
- }
- #lineAbtMe{
-   padding-top:220px;
-  
-   width:280px;
- }
- .experiance{
-   margin-top:100px;
-   display:flex;
-   flex-direction: column;
-   align-items: center;
-   margin-bottom:44px;
- 
- }
- .abtMedescription{
-  color:#F4F5F7;
+  background-position: 210px 340px;
+  background-color: #1c1a19;
+  width:375px;
+}
+
+.abtMe_Header {
+  padding-top: 140px;
+  padding-bottom: 30px;
+  font-size: 60px;
+  font-family: 'Crete Round', serif;
+  color: #ff6b00;
+}
+
+.abtMe_content {
+  margin-left: 20px;
+}
+
+#lineAbtMe {
+  padding-top: 220px;
+  width: 280px;
+}
+
+.experiance {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 44px;
+}
+
+.abtMedescription {
+  color: #f4f5f7;
   font-weight: 400;
-  font-size:16px;
- }
- 
- #icon_exprex{
-   display:flex;
-   align-items:center;
-   margin-top:24px;
-  
- }
- #icon_exprex img {
-   padding-right:15px;
- 
-   width:18px;
-   height:18px;
- }
- 
- #icon_exprex h1{
- color: #FFFFFF;
- font-family: "InaiMathi";
- }
- .experiance ul  {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
- 
- 
- }
- .experiance ul li{
-   margin-top :24px;
-   list-style: none;
-   font-size: 22px;
-   color: #ffffff;
-   text-align: center;
- }
- #skill #theLast {
-   padding-bottom:114px;
- }
- Button{
-  cursor: pointer;
- }
- 
- 
- 
- 
+  font-size: 16px;
+}
+
+#icon_exprex {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+
+#icon_exprex img {
+  padding-right: 15px;
+  width: 18px;
+  height: 18px;
+}
+
+#icon_exprex h1 {
+  color: #fff;
+}
+
+.experiance ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.experiance ul li {
+  margin-top: 24px;
+  list-style: none;
+  font-size: 22px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+
+#skill #theLast {
+  padding-bottom: 114px;
+}
