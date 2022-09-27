@@ -340,15 +340,15 @@ display:flex;
 flex-direction: column;
 align-items: center;
 }
-.contact_form input {
+.contact_form input,textarea {
 
  width: 327px;
  border:none;
  color:#979493;
- margin-top:10px;
+ margin-top:30px;
 }
 footer ul{
-  margin-top:150px;
+  margin-top:120px;
   display:flex;
   gap:20px;
 
@@ -365,12 +365,23 @@ color: #505F79;
   font-size:10px;
   font-family:"Inter" sans-serif;
   background-color: #FF6B00;
-  font-weight:700;
+  font-weight:bolder;
 
 }
+#under_input{
+margin-bottom:10px;
+}
+
 #above_footer{
   margin-bottom:-120px;
+  height:1px;
+  color:#DFE1E6;
+  margin-top:110px;
 }
 #user_comment{
   background-color: #fbf8f7;
+}
+textarea{
+  margin-top:30px;
+  
 }
