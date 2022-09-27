@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;500&family=Roboto:wght@100&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -312,4 +313,64 @@ button {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+.contact_form{
+  background-color: #FFFFFF;
+  margin:0px auto;
+  padding-top:100px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+
+
+}
+#contact_header{
+  font-family: 'Inter', sans-serif;
+  font-size:32px;
+  font-weight: 700px;
+   margin-bottom:80px;
+   text-align: center;
+   color: #172b4d;
+
+  
+}
+form{
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+.contact_form input {
+
+ width: 327px;
+ border:none;
+ color:#979493;
+ margin-top:10px;
+}
+footer ul{
+  margin-top:150px;
+  display:flex;
+  gap:20px;
+
+}
+footer ul li {
+  list-style: none;
+color: #505F79;
+}
+
+#button_label{
+  margin:80px auto;
+  width:131px;
+  height:48px;
+  font-size:10px;
+  font-family:"Inter" sans-serif;
+  background-color: #FF6B00;
+  font-weight:700;
+
+}
+#above_footer{
+  margin-bottom:-120px;
+}
+#user_comment{
+  background-color: #fbf8f7;
 }
