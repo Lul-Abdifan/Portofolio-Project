@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;500&family=Roboto:wght@100&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -73,6 +74,17 @@ nav ul li a {
   width: 324px;
   margin-top: 15px;
   line-height: 23px;
+}
+
+footer ul {
+  margin-top: 120px;
+  display: flex;
+  gap: 20px;
+}
+
+footer ul li {
+  list-style: none;
+  color: #505f79;
 }
 
 .links ul {
@@ -314,74 +326,65 @@ button {
   align-items: center;
   gap: 10px;
 }
-.contact_form{
-  background-color: #FFFFFF;
-  margin:0px auto;
-  padding-top:100px;
-  display:flex;
+
+.contact_form {
+  background-color: #fff;
+  margin: 0 auto;
+  padding-top: 100px;
+  display: flex;
   flex-direction: column;
   align-items: center;
-
-
-
 }
-#contact_header{
-  font-family: 'Inter', sans-serif;
-  font-size:32px;
-  font-weight: 700px;
-   margin-bottom:80px;
-   text-align: center;
-   color: #172b4d;
 
+#contact_header {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 700px;
+  margin-bottom: 80px;
+  text-align: center;
+  color: #172b4d;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact_form input,
+textarea {
+  width: 327px;
+  border: none;
+  color: #979493;
+  margin-top: 30px;
+}
+
+#button_label {
+  margin: 80px auto;
+  width: 131px;
+  height: 48px;
+  font-size: 10px;
+  background-color: #ff6b00;
+  font-weight: bolder;
+  .
   
 }
-form{
-display:flex;
-flex-direction: column;
-align-items: center;
-}
-.contact_form input,textarea {
 
- width: 327px;
- border:none;
- color:#979493;
- margin-top:30px;
-}
-footer ul{
-  margin-top:120px;
-  display:flex;
-  gap:20px;
-
-}
-footer ul li {
-  list-style: none;
-color: #505F79;
+#under_input {
+  margin-bottom: 10px;
 }
 
-#button_label{
-  margin:80px auto;
-  width:131px;
-  height:48px;
-  font-size:10px;
-  font-family:"Inter" sans-serif;
-  background-color: #FF6B00;
-  font-weight:bolder;
-
-}
-#under_input{
-margin-bottom:10px;
+#above_footer {
+  margin-top: 110px;
+  margin-bottom: -100px;
+  height: 1px;
+  color: #dfe1e6;
 }
 
-#above_footer{
-  margin-bottom:-120px;
-  height:1px;
-  color:#DFE1E6;
-  margin-top:110px;
-}
-#user_comment{
+#user_comment {
   background-color: #fbf8f7;
 }
-textarea{
-  margin-top:30px;
-  
+
+textarea {
+  margin-top: 30px;
 }
