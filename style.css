@@ -7,7 +7,8 @@
 }
 
 body {
-  max-width: 375px;
+ 
+ width:375px;
   margin: auto;
   font-family: 'Inter', sans-serif;
 }
@@ -416,4 +417,10 @@ button::after {
 button:hover::after {
   width: 100%;
   background-color: #f27f2d;
+}
+@media only screen and (min-width: 768px) 
+{
+  .toggler-icon{
+    display:none;
+  }
 }
