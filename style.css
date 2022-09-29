@@ -1,11 +1,15 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;500&family=Roboto:wght@100&display=swap');
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  margin: 0% 37%;
+  width: 375px;
+  margin: auto;
+  font-family: 'Inter', sans-serif;
 }
 
 header {
@@ -33,6 +37,10 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: white;
+}
+
+.hidden-nav {
+  display: none;
 }
 
 .headline {
@@ -72,6 +80,18 @@ nav ul li a {
   width: 324px;
   margin-top: 15px;
   line-height: 23px;
+}
+
+footer ul {
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+footer ul li {
+  list-style: none;
+  color: #505f79;
 }
 
 .links ul {
@@ -167,6 +187,16 @@ button {
   display: block;
   font-weight: bold;
   color: #fff;
+}
+
+button:hover {
+  background-color: #eb8f4d;
+  border: 2px solid #ff6b00;
+  color: rgb(76, 39, 39);
+}
+
+button:active {
+  box-shadow: inset 0 0 10px #c39528;
 }
 
 .seeProject a button {
@@ -312,4 +342,84 @@ button {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.contact_form {
+  background-color: #fff;
+  margin: 0 auto;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact_header {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 700px;
+  margin-bottom: 80px;
+  text-align: center;
+  color: #172b4d;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact_form input,
+textarea {
+  width: 327px;
+  border: none;
+  color: #979493;
+  margin-top: 30px;
+  outline: none;
+}
+
+#button_label:focus {
+  margin: 80px auto;
+  width: 131px;
+  height: 48px;
+  font-size: 10px;
+  background-color: #ff6b00;
+  font-weight: bolder;
+}
+
+#under_input {
+  margin-bottom: 10px;
+}
+
+#above_footer {
+  margin-top: 110px;
+  margin-bottom: -100px;
+  height: 1px;
+  color: #dfe1e6;
+}
+
+#user_comment {
+  background-color: #fbf8f7;
+}
+
+textarea {
+  margin-top: 30px;
+}
+
+button::after {
+  content: "";
+  height: 2px;
+  width: 0%;
+  display: block;
+  transition: 0.8s ease-in-out;
+}
+
+button:hover::after {
+  width: 100%;
+  background-color: #f27f2d;
+}
+
+@media only screen and (min-width: 768px) {
+  .toggler-icon {
+    display: none;
+  }
 }
