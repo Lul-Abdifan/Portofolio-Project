@@ -4,13 +4,11 @@
 * {
   margin: 0;
   padding: 0;
-
 }
+
 body {
   font-family: 'Inter', sans-serif;
 }
-
- 
 
 header {
   height: 42px;
@@ -84,7 +82,6 @@ nav ul li a {
 
 footer ul {
   margin-top: 120px;
-  
   display: flex;
   align-items: center;
   gap: 20px;
@@ -252,7 +249,6 @@ button:active {
   background-position: 210px 340px;
   background-color: #1c1a19;
   width: 100%;
- 
 }
 
 .abtMe_Header {
@@ -379,14 +375,14 @@ textarea {
   outline: none;
 }
 
-#button_label{
+#button_label {
   margin-top: 30px;
   width: 131px;
   height: 48px;
   background-color: #ff6b00;
- color:white;
- font-weight: 700;
-  border:none;
+  color: white;
+  font-weight: 700;
+  border: none;
 }
 
 #under_input {
@@ -421,8 +417,7 @@ button:hover::after {
   background-color: #f27f2d;
 }
 
-@media all and (min-width:375px)
-{
+@media all and (min-width: 375px) {
   body {
     max-width: 375px;
     margin: auto;
@@ -433,192 +428,216 @@ button:hover::after {
   .toggler-icon {
     display: none;
   }
-  body{
+
+  body {
     max-width: 1440px;
-    height:870px;
-    margin:auto;
+    height: 870px;
+    margin: auto;
   }
-  .hidden-nav{
-    display:inline;
-}
-.hidden-nav ul li{
-margin-left:16px;
-}
-nav{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding:0% 120px;
-}
-.headline{
-  display:flex;
-  flex-direction: row;
-  background: url("./assets/images/deskttopHeaderbg.png");
-  background-color: #1c1a19;
-  background-size: 450px;
-  
-  background-repeat: no-repeat;
-  background-position: 99.9% 0%;
-  
-}
-.heyThereContainer{
-  order:2;
-  margin-left:-80px;
-}
-.links{
-  order:1;
-  
-}
-.links ul{
-  flex-direction: column;
-  margin-left:-100px;
-   gap: 15px;
-   margin-top:110%;
- 
-}
-.about_Me{
-  display: flex;
-  flex-direction: column;
-  background-image: url(./assets/images/AboutUsbg.png);
-  background-repeat: no-repeat;
- background-size: 550px;
- background-position: 99.8% 9%;
-}
-.abtMedescription{
-  width:566px;
-  height:148px;
-  font-size:20px;
-  line-height: 32px;
-}
-.recentWorks_header{
-  margin-left:-77%;
-}
-.multi_post{
-  height: 448px;
-width: 684px;
-left: 0px;
-top: 0px;
-border-radius: 0px;
-}
-.works-Section .card1{
-  display:flex;
-  flex-direction: raw;
-  height:448px;
-  gap:15px;
- 
-}
-.card-title{
-  margin-top:-35px;
-  height: 48px;
-width: 448px;
-left: 0px;
-top: 0px;
-border-radius: nullpx;
-font-family: "Crete Round" sans-serif;
-font-size: 40px;
-font-weight: 400;
-line-height: 52px;
-letter-spacing: 0em;
-text-align: left;
 
-}
-.card1_description{
-  height: 140px;
-width: 448px;
-left: 0px;
-top: 72px;
-border-radius: nullpx;
-
-}
-.workSection{
-  display: grid;
-  grid-template-columns: 365px 365px 365px;
-  margin-top: 20px;
-  column-gap: -20px;
-}
-.card2{
-  background: url("./assets/cardImg.png");
-}
-.card2 .cards-header ,.card2 .cards_description ,.card2 .card_buttons{
-  display: none;
-}
-.card2 .seeProjectCards{
-  margin-top:380px;
-}
-.card3 ,.card6{
-  background: url(./assets/card2img.png);
-}
-.card4 , .card7{
-  background: url(./assets/cardimg3.png);
-}
-.card5{
-  background: url(./assets/card5.png);
-}
-.card3 .seeProjectCards,.card4 .seeProjectCards, .card4 .seeProjectCards ,
- .card5 .seeProjectCards,.card6 .seeProjectCards,.card7 .seeProjectCards{
-  display:none;
- }
-.card5 ,.card6 , .card7{
-  height:435px;
-}
-#besiderecentWorks{
-  float:right;
-  margin-top:-125px;
-  margin-right:120px;
-  border:1px;
-  background: #212121;
-
-}
-
-/*Left for work section*/
-#under-footer
-{
-  display:none;
-}
-
-
-#contact_header{
-  height: 256px;
-width: 455px;
-margin-top:-230px;
-color: #262626;
-font-weight: 700;
-
-}
-.contact_form{
-  display:flex;
-  flex-direction:row;
-  margin-left: 135px;
-  gap:30px;
-}
-  footer ul{
-    margin-left:30px;
-
+  .hidden-nav {
+    display: inline;
   }
-  #button_label{
-    margin-left:-195px;
-  
+
+  .hidden-nav ul li {
+    margin-left: 16px;
   }
-  form{
-    margin-bottom:120px;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 120px;
   }
-.experiance ul {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  column-gap: 250px;
 
+  .headline {
+    display: flex;
+    flex-direction: row;
+    background: url("./assets/images/deskttopHeaderbg.png");
+    background-color: #1c1a19;
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: 99.9% 0%;
+  }
+
+  .heyThereContainer {
+    order: 2;
+    margin-left: -80px;
+  }
+
+  .links {
+    order: 1;
+  }
+
+  footer ul {
+    margin-left: 30px;
+  }
+
+  .links ul {
+    flex-direction: column;
+    margin-left: -100px;
+    gap: 15px;
+    margin-top: 110%;
+  }
+
+  .about_Me {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./assets/images/AboutUsbg.png);
+    background-repeat: no-repeat;
+    background-size: 550px;
+    background-position: 99.8% 9%;
+  }
+
+  .abtMedescription {
+    width: 566px;
+    height: 148px;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .recentWorks_header {
+    margin-left: -77%;
+  }
+
+  .multi_post {
+    height: 448px;
+    width: 684px;
+    left: 0;
+    top: 0;
+    border-radius: 0;
+  }
+
+  .works-Section .card1 {
+    display: flex;
+    flex-direction: raw;
+    height: 448px;
+    gap: 15px;
+  }
+
+  .card-title {
+    margin-top: -35px;
+    height: 48px;
+    width: 448px;
+    left: 0;
+    top: 0;
+    border-radius: nullpx;
+    font-family: 'Crete Round', serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  .card1_description {
+    height: 140px;
+    width: 448px;
+    left: 0;
+    top: 72px;
+    border-radius: nullpx;
+  }
+
+  .workSection {
+    display: grid;
+    grid-template-columns: 365px 365px 365px;
+    margin-top: 20px;
+    column-gap: -20px;
+  }
+
+  .card2 {
+    background: url("./assets/cardImg.png");
+  }
+
+  .card2 .cards-header,
+  .card2 .cards_description,
+  .card2 .card_buttons {
+    display: none;
+  }
+
+  .card2 .seeProjectCards {
+    margin-top: 380px;
+  }
+
+  .card3,
+  .card6 {
+    background: url(./assets/card2img.png);
+  }
+
+  .card4,
+  .card7 {
+    background: url(./assets/cardimg3.png);
+  }
+
+  .card5 {
+    background: url(./assets/card5.png);
+  }
+
+  .card3 .seeProjectCards,
+  .card4 .seeProjectCards,
+  .card5 .seeProjectCards,
+  .card6 .seeProjectCards,
+  .card7 .seeProjectCards {
+    display: none;
+  }
+
+  .card5,
+  .card6,
+  .card7 {
+    height: 435px;
+  }
+
+  #besiderecentWorks {
+    float: right;
+    margin-top: -125px;
+    margin-right: 120px;
+    border: 1px;
+    background: #212121;
+    margin-left: -50px;
+  }
+
+  /* Left for work section */
+  #under-footer {
+    display: none;
+  }
+
+  #contact_header {
+    height: 256px;
+    width: 455px;
+    margin-top: -230px;
+    color: #262626;
+    font-weight: 700;
+  }
+
+  .contact_form {
+    display: flex;
+    flex-direction: row;
+    margin-left: 135px;
+    gap: 30px;
+  }
+
+  #button_label {
+    margin-left: -195px;
+  }
+
+  form {
+    margin-bottom: 120px;
+  }
+
+  .experiance ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 250px;
+  }
+
+  .experiance ul li ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #lineAbtMe {
+    height: 1px;
+    color: #fff;
+    margin-left: 45px;
+  }
 }
-.experiance ul li ul{
-  display: flex;
-  flex-direction:column;
-}
-#lineAbtMe{
-  height:1px;
-  color:#FFFFFF;
-  margin-left:45px;
-}
-}
-
-
-
-
