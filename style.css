@@ -491,7 +491,7 @@ nav{
   line-height: 32px;
 }
 .recentWorks_header{
-  margin-left:-70%;
+  margin-left:-77%;
 }
 .multi_post{
   height: 448px;
@@ -561,7 +561,14 @@ border-radius: nullpx;
 .card5 ,.card6 , .card7{
   height:435px;
 }
+#besiderecentWorks{
+  float:right;
+  margin-top:-125px;
+  margin-right:120px;
+  border:1px;
+  background: #212121;
 
+}
 
 /*Left for work section*/
 #under-footer
