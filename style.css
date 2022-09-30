@@ -476,6 +476,94 @@ nav{
    margin-top:110%;
  
 }
+.about_Me{
+  display: flex;
+  flex-direction: column;
+  background-image: url(./assets/images/AboutUsbg.png);
+  background-repeat: no-repeat;
+ background-size: 550px;
+ background-position: 99.8% 9%;
+}
+.abtMedescription{
+  width:566px;
+  height:148px;
+  font-size:20px;
+  line-height: 32px;
+}
+.recentWorks_header{
+  margin-left:-70%;
+}
+.multi_post{
+  height: 448px;
+width: 684px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+}
+.works-Section .card1{
+  display:flex;
+  flex-direction: raw;
+  height:448px;
+  gap:15px;
+ 
+}
+.card-title{
+  margin-top:-35px;
+  height: 48px;
+width: 448px;
+left: 0px;
+top: 0px;
+border-radius: nullpx;
+font-family: "Crete Round" sans-serif;
+font-size: 40px;
+font-weight: 400;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.card1_description{
+  height: 140px;
+width: 448px;
+left: 0px;
+top: 72px;
+border-radius: nullpx;
+
+}
+.workSection{
+  display: grid;
+  grid-template-columns: 365px 365px 365px;
+  margin-top: 20px;
+  column-gap: -20px;
+}
+.card2{
+  background: url("./assets/cardImg.png");
+}
+.card2 .cards-header ,.card2 .cards_description ,.card2 .card_buttons{
+  display: none;
+}
+.card2 .seeProjectCards{
+  margin-top:380px;
+}
+.card3 ,.card6{
+  background: url(./assets/card2img.png);
+}
+.card4 , .card7{
+  background: url(./assets/cardimg3.png);
+}
+.card5{
+  background: url(./assets/card5.png);
+}
+.card3 .seeProjectCards,.card4 .seeProjectCards, .card4 .seeProjectCards ,
+ .card5 .seeProjectCards,.card6 .seeProjectCards,.card7 .seeProjectCards{
+  display:none;
+ }
+.card5 ,.card6 , .card7{
+  height:435px;
+}
+
+
+/*Left for work section*/
 #under-footer
 {
   display:none;
