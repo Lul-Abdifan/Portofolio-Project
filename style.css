@@ -4,19 +4,14 @@
 * {
   margin: 0;
   padding: 0;
+
 }
 
 body {
   font-family: 'Inter', sans-serif;
 }
 
-header {
-  height: 42px;
-  max-width: 100%;
-  background-color: #3c3a39;
-  padding: 10px;
-  color: white;
-}
+
 
 header .myLogo {
   font-weight: bolder;
@@ -155,7 +150,8 @@ footer ul li {
   padding-top: 20px;
 }
 
-button {
+button ,#myresumeButton,
+.seeProject button {
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
 }
@@ -175,6 +171,10 @@ button {
 .seeProject button {
   padding: 15px 15px;
   border: 1px solid #8993a4;
+}
+#button_link:hover,
+.seeProject button :hover{
+  background-color: #e48f52;
 }
 
 .about_Me button {
@@ -417,7 +417,7 @@ button:hover::after {
   background-color: #f27f2d;
 }
 #button_linkProj:hover,
-#button_label:hover,.button_link:hover ,button:hover{
+#button_label:hover,.button_link:hover #myresumeButton,button:hover{
   cursor:pointer;
   background-color: #E5E5E5;
   color:#ff6b00;
@@ -435,47 +435,65 @@ cursor: pointer;
     max-width: 375px;
     margin: auto;
   }
+  header {
+    height: 42px;
+    padding:10px;
+    background-color: #3c3a39;
+   
+    color: white;
+  }
 }
 
 @media all and (min-width: 768px) {
   .toggler-icon {
     display: none;
   }
-
   body {
     max-width: 1440px;
    
-    margin: auto;
+    margin:0 auto;
+  }
+
+  header{
+    height:72px;
+    width: 1420px;
+    
   }
  
- 
-
-  .hidden-nav {
-    display: inline;
+  .toggler-icon{
+    display:none;
   }
-
-  .hidden-nav ul li {
-    margin-left: 16px;
+  .hidden-nav  {
+    display:inline;
+  
   }
- header{
-  height: 72px;
-width: 1440px;
-left: 0px;
-top: 0px;
-border-radius: 0px;
-
- }
-
   nav {
     
-   
-    display: flex;
+   display: flex;
+   flex-direction: row;
     justify-content: space-between;
     align-items: center;
    
-    padding: 0% 154px;
+    padding: 12px 154px;
   }
+  .hidden-nav  ul li{
+    margin-left:32px;
+  }
+  .heyThereContainer .description p{
+    height: 123px;
+width: 566px;
+left: 0px;
+top: 424px;
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
 
+
+  }
+ 
   .headline {
     display: flex;
     flex-direction: row;
@@ -540,7 +558,7 @@ background-position: 99.94% 99.47px;
     margin-top: -125px;
     margin-right: 180px;
   
-    border: 1px;
+    border: 1px solid #E5E5E5;
     background: #212121;
     margin-left: 200px;
   
