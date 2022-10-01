@@ -416,6 +416,19 @@ button:hover::after {
   width: 100%;
   background-color: #f27f2d;
 }
+#button_linkProj:hover,
+#button_label:hover,.button_link:hover ,button:hover{
+  cursor:pointer;
+  background-color: #E5E5E5;
+  color:#ff6b00;
+  
+  font-weight: 700;
+}
+#myresumeButton:hover{
+cursor: pointer;
+  background-color: #E5E5E5;
+  color:#ff6b00;
+}
 
 @media all and (min-width: 375px) {
   body {
@@ -431,9 +444,11 @@ button:hover::after {
 
   body {
     max-width: 1440px;
-    height: 870px;
+   
     margin: auto;
   }
+ 
+ 
 
   .hidden-nav {
     display: inline;
@@ -442,22 +457,40 @@ button:hover::after {
   .hidden-nav ul li {
     margin-left: 16px;
   }
+ header{
+  height: 72px;
+width: 1440px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+
+ }
 
   nav {
+    
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0% 120px;
+   
+    padding: 0% 154px;
   }
 
   .headline {
     display: flex;
     flex-direction: row;
+    width:1440px;
+    height: 798px;
+
     background: url("./assets/images/deskttopHeaderbg.png");
     background-color: #1c1a19;
-    background-size: 450px;
+  
+background-size: 645.51px 633.3157px;
+
+background-color: #1c1a19;
+
     background-repeat: no-repeat;
-    background-position: 99.9% 0%;
+    background-position: 99.89% -30.90%;
   }
 
   .heyThereContainer {
@@ -481,13 +514,15 @@ button:hover::after {
   }
 
   .about_Me {
+    height: 1195px;
+    width: 1440px;
     display: flex;
     flex-direction: column;
     background-image: url(./assets/images/AboutUsbg.png);
     background-repeat: no-repeat;
-    background-size: 550px;
-    background-position: 99.8% 9%;
-  }
+background-size: 672.3919px 352.3808px;
+background-position: 99.94% 99.47px;
+ }
 
   .abtMedescription {
     width: 566px;
@@ -497,12 +532,24 @@ button:hover::after {
   }
 
   .recentWorks_header {
-    margin-left: -77%;
+    margin-left: -67%;
+   
+  }
+   #besiderecentWorks {
+    float: right;
+    margin-top: -125px;
+    margin-right: 180px;
+  
+    border: 1px;
+    background: #212121;
+    margin-left: 200px;
+  
   }
 
   .multi_post {
     height: 448px;
     width: 684px;
+    margin-left:100px;
     left: 0;
     top: 0;
     border-radius: 0;
@@ -542,6 +589,7 @@ button:hover::after {
     display: grid;
     grid-template-columns: 365px 365px 365px;
     margin-top: 20px;
+    margin-left:100px;
     column-gap: -20px;
   }
 
@@ -591,9 +639,10 @@ button:hover::after {
     float: right;
     margin-top: -125px;
     margin-right: 120px;
+  
     border: 1px;
     background: #212121;
-    margin-left: -50px;
+    margin-left: 120px;
   }
 
   /* Left for work section */
@@ -623,21 +672,32 @@ button:hover::after {
   form {
     margin-bottom: 120px;
   }
-
+  
   .experiance ul {
     display: grid;
     grid-template-columns: auto auto auto;
-    column-gap: 250px;
+    column-gap: 220px;
+   
   }
 
   .experiance ul li ul {
     display: flex;
     flex-direction: column;
+ 
   }
+  .abtMe_content{
+    margin-left: 142px;;
+  }
+  #lineAbtMe{
+     margin-right:142px;
+    margin-top:-50px;
+    border:1px  #FFFFFF;
 
-  #lineAbtMe {
-    height: 1px;
-    color: #fff;
-    margin-left: 45px;
   }
+.experiance{
+  margin-left:-250px;
+}
+
+
+
 }
