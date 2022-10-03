@@ -4,7 +4,7 @@
 
 My Portofolio Project
 
-This is portofolio project. In this project, things like setting up html and css,liters, GitHub Actions, and following GitHub flow are covered.The Template i used is provided by Microverse is here:
+This is portofolio project. In this project, things like setting up html and css,liters, GitHub Actions, and following GitHub flow are covered.The Template i used is provided by Microverse is here:https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=1%3A1471
 
 
 ## Built With
@@ -13,14 +13,14 @@ This is portofolio project. In this project, things like setting up html and css
  -CSS 
  -Linters
 
-## Live Demo (if available)
+## Live Demo 
 
-[Live Demo Link](https://livedemo.com)
+https://lul-abdifan.github.io/Mobile_Portofolio/
 
 
 
 To get a local copy up and running follow these simple example steps.
-
+https://lul-abdifan.github.io/Mobile_Portofolio/
 
 
 ### Setup
