@@ -2,40 +2,30 @@
 
 # Project Name
 
-Mobile Portofolio Microverse
+My Portofolio Project
 
-This is our mobile portofolio project in Microverse's module one. In this project, things like setting up html and css liters, GitHub Actions, and following GitHub flow are covered.
+This is portofolio project. In this project, things like setting up html and css,liters, GitHub Actions, and following GitHub flow are covered.The Template i used is provided by Microverse is here:
 
 
 ## Built With
 
-Html and CSS ,Linters
+ -Html
+ -CSS 
+ -Linters
 
 ## Live Demo (if available)
 
 [Live Demo Link](https://livedemo.com)
 
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+
 
 ### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+ Open your terminal then
+   git clone git@github.com:Lul-Abdifan/Mobile_Portofolio.git
 
 
 ## Authors
