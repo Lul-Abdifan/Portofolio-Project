@@ -15,7 +15,7 @@ This is portofolio project. In this project, things like setting up html and css
 
 ## Live Demo 
 
-https://lul-abdifan.github.io/Mobile_Portofolio/
+[Live Demo]https://lul-abdifan.github.io/Mobile_Portofolio/
 
 
 
@@ -24,7 +24,8 @@ https://lul-abdifan.github.io/Mobile_Portofolio/
 
 
 ### Setup
- Open your terminal then
+ Open your terminal
+
    git clone git@github.com:Lul-Abdifan/Mobile_Portofolio.git
 
 
