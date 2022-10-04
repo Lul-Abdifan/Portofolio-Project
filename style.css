@@ -148,7 +148,6 @@ footer ul li {
 }
 
 button,
-#myresumeButton,
 .seeProject button {
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
@@ -711,4 +710,32 @@ button:hover::after {
   button:active {
     box-shadow: inset 0 0 10px #c39528;
   }
+  .myLogo:hover
+  {
+              transform: translate(40px);
+    text-transform: capitalize;
+    transition: 1ms;
+color:orange;
+font-size: 20px;
+text-transform: capitalize;
+  }
+ 
+ 
+ 
+  .cards:hover{
+    transform: scale(1.12);
+    transition: 1s;
+  }
+  .myresume_btn{
+    background: #F55800;
+    color:#FFFFFF;
+    font-weight: 700;
+    padding:15px;
+  }
+  .myresume_btn:hover{
+  background:#fff5e1;
+  color: #F55800;
+
+  }
+  
 }
