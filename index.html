@@ -8,24 +8,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
  
-<link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
-
-    
-    
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <header>
         <nav>
              <ul>
                <li><a class="myLogo" href="">Abdi Bekele</a> </li>
-               <li><a href="" class="toggler-icon"><img src="./assets/images/humberger.png" alt="humberger-icon"></a></li>
+               <li><a class="toggler-icon"><img src="./assets/images/humberger.png" alt="humberger-icon" id="openBtn"></a></li>
              
             </ul>
              <div class="hidden-nav">
@@ -37,7 +35,26 @@
              </ul>
              </div>
       </nav>
+       <div id="overlay">
+          <div class="closeImg">
+              <img src="./assets/images/close.svg" alt="Close Image" class="close" id="closeBtn">
+          </div>
+          <ul>
+            <li>
+              <a href="#portofolio_Me" class="overlay_link" >Portfolio</a>
+            </li>
+            <li>
+              <a href="#about_Me"  class="overlay_link">About</a>
+            </li>
+            <li>
+              <a href="#contact_Me" class="overlay_link">Contact</a>
+            </li>
+          </ul>
+      </div>  
+  
     </header>
+
+   
 <section class= "headline">
     <div class="heyThereContainer">
    <div class= "heyThere">
@@ -67,7 +84,7 @@
        
             <!-- ******* Work Section  *******-->  
    
-        <div class="works-Section">
+        <div class="works-Section" id="portofolio_Me">
             <h2 class="recentWorks_header">My Recent Works</h2>
             <img src="./assets/images/besideWorkLine.png" id="besiderecentWorks">
             
@@ -243,7 +260,7 @@
 
         <!--Completed Works Section the below is About me section-->
 
-    <div class="about_Me">
+    <div class="about_Me" id="about_Me">
          <div class="abtMe_content">
            <h2 class="abtMe_Header">About me </h2>
              <div class="abtMedescription">
@@ -307,7 +324,7 @@
 
            <!--About Section-->
 
-    <div class="contact_form">
+    <div class="contact_form" id="contact_Me">
        <div class="form_header">
         <h1 id="contact_header">I'm always interested in hearing about new projects, so if you'd like to chat 
             please get in touch.</h1></div>
@@ -350,7 +367,7 @@
     </div>
 
     
-   
+   <script src="./script.js"></script>
     
 </body>
 </html>
