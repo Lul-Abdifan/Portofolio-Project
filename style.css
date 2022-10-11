@@ -86,7 +86,7 @@ footer ul li {
 
 .links ul {
   display: flex;
-  flex-direction: raw;
+  flex-direction: row;
   align-items: center;
   margin-top: 25px;
   margin-left: 45px;
@@ -227,7 +227,6 @@ button:hover {
 
 .cards-header {
   padding-top: 110px;
-  size: 32px;
   padding-bottom: 20px;
   margin-left: -32px;
   color: #fff;
@@ -363,7 +362,7 @@ button:hover {
 #contact_header {
   font-family: 'Inter', sans-serif;
   font-size: 32px;
-  font-weight: 700px;
+  font-weight: 700;
   margin-bottom: 80px;
   text-align: center;
   color: #172b4d;
@@ -415,6 +414,50 @@ button:hover::after {
   width: 100%;
   background-color: #f27f2d;
 }
+
+/* I added some css for menu */
+
+#overlay {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #3c3a39;
+}
+
+.closeImg {
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+#overlay ul {
+  list-style-type: none;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#overlay li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 0.5px solid #6f6c6b;
+}
+
+#overlay li a {
+  font-size: 32px;
+  font-weight: 700;
+  color: rgba(255, 245, 225, 1);
+  text-decoration: none;
+  line-height: 44px;
+}
+
+/*  End of menu */
 
 @media all and (min-width: 375px) {
   body {
@@ -562,7 +605,7 @@ button:hover::after {
 
   .works-Section .card1 {
     display: flex;
-    flex-direction: raw;
+    flex-direction: row;
     height: 448px;
     gap: 15px;
   }
@@ -573,7 +616,6 @@ button:hover::after {
     width: 448px;
     left: 0;
     top: 0;
-    border-radius: nullpx;
     font-family: 'Crete Round', serif;
     font-size: 40px;
     font-weight: 400;
@@ -587,7 +629,6 @@ button:hover::after {
     width: 448px;
     left: 0;
     top: 72px;
-    border-radius: nullpx;
   }
 
   .workSection {
