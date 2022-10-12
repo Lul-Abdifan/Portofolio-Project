@@ -114,7 +114,7 @@ function render(project) {
 </div>
 
 
-  `
+  `;
 }
 
 document.querySelectorAll('#button_linkProj').forEach((btn) => {
