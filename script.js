@@ -94,9 +94,11 @@ function render(project) {
     ${project.tech.map((t) => (`<li>${t}</li>`)).join('')}
     </ul>
   </div>
+<
   <div class="model-img">
     <img src="${project.mobile_img}">
   </div>
+ 
   <p>
    ${project.description}
   </p>
@@ -107,7 +109,8 @@ function render(project) {
     <a href="${project.source_code}">See Source
       <img src="./assets/images/live.svg">
     </a>
-  </div>
+    </div>
+
 </div>
 
 
