@@ -94,7 +94,7 @@ function render(project) {
     ${project.tech.map((t) => (`<li>${t}</li>`)).join('')}
     </ul>
   </div>
-<
+
   <div class="model-img">
     <img src="${project.mobile_img}">
   </div>
@@ -114,7 +114,7 @@ function render(project) {
 </div>
 
 
-  `;
+  `
 }
 
 document.querySelectorAll('#button_linkProj').forEach((btn) => {
