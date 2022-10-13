@@ -78,6 +78,45 @@ const projects = [
   },
 ];
 
+const showError = document.getElementById('showError');
+const formCheck = document.getElementById('formSubmit');
+
+
+const emailAddress=formSubmit.email.value;
+formCheck.addEventListener('submit',(e)=>  {
+   
+  console.log("Email must be in a lowercase")
+   }
+  
+
+)
+ 
+
+// showError.textContent = 'The email character must be a lower case';  
+  
+// if(emailAddress !== emailAddress.toLowerCase())
+//   {e.preventDefault();
+//   showError.textContent = 'The email character must be a lower case';    
+//   }
+// return true;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const popup = document.querySelector('.popup');
 const forbur = document.getElementById('forbur');
 
