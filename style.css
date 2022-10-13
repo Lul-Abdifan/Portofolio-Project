@@ -125,6 +125,7 @@ footer ul li {
     margin-top: 112px;
     margin-left: 142px;
     margin-right: 142px;
+    margin-bottom: 112px;
     display: none;
     position: fixed;
     top: 0;
@@ -133,8 +134,12 @@ footer ul li {
     bottom: 0;
     z-index: 2;
     background-color: #fff;
-    padding-bottom: 20px;
   }
+
+  .model-container {
+    display: flex;
+  }
+
 
   .blur {
     filter: blur(0.5rem);
@@ -145,11 +150,17 @@ footer ul li {
   }
 
   .model-img {
-    width: 659px;
+    flex: 50%;
+    /* width: 659px;
     height: 448px;
     float: left;
     margin-top: 30px;
-    margin-right: 25px;
+    margin-right: 25px; */
+  }
+
+  .model-description{
+    flex: 50%;
+    margin-left: 30px;
   }
 
   .model-btn {

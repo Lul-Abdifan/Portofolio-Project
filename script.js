@@ -81,6 +81,36 @@ const projects = [
 const popup = document.querySelector('.popup');
 const forbur = document.getElementById('forbur');
 
+
+const workSection = document.querySelector(".workSection")
+
+projects.forEach(project=>{
+  const div = document.createElement('div')
+  div.innerHTML = renderAll(project)
+  workSection.appendChild(div)
+})
+
+function renderAll(project){
+  return `
+  <div class="cards card2" >
+  <h3 class="cards-header">${project.name}</h3>
+   <div class="cards_description">
+     <p>${project.description}
+    </p>
+ </div>
+  <div class="card_buttons">
+    <ul>
+    ${project.tech.map((t) => (`<li> <li> <a href="#">  <button type="button" id="button_link">${t}</button></a></li></li>`)).join('')}
+   </ul>
+ </div>
+   <div class="seeProjectCards">
+     <button type="button" id="button_linkProj" class="btn1">See Project</button>  
+   </div>
+</div>
+
+  `
+}
+
 function render(project) {
   return `
   <div class="model">
@@ -94,22 +124,27 @@ function render(project) {
     ${project.tech.map((t) => (`<li>${t}</li>`)).join('')}
     </ul>
   </div>
-
-  <div class="model-img">
+  <div class="model-container">
+    <div class="model-img">
     <img src="${project.mobile_img}">
+    </div>
+    <div class="model-description">
+    <p>
+    ${project.description}
+    </p>
+    <div class="model-btn">
+      <a href="${project.live}">See Live 
+        <img src="./assets/images/source.svg">
+      </a>
+      <a href="${project.source_code}">See Source
+        <img src="./assets/images/live.svg">
+      </a>
+      </div>
   </div>
  
-  <p>
-   ${project.description}
-  </p>
-  <div class="model-btn">
-    <a href="${project.live}">See Live 
-      <img src="./assets/images/source.svg">
-    </a>
-    <a href="${project.source_code}">See Source
-      <img src="./assets/images/live.svg">
-    </a>
-    </div>
+
+ </div>
+
 
 </div>
 
