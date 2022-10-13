@@ -128,9 +128,6 @@ footer ul li {
     margin-bottom: 112px;
     display: none;
     position: fixed;
-    
-
- 
     z-index: 2;
     background-color: #fff;
   }
@@ -138,7 +135,6 @@ footer ul li {
   .model-container {
     display: flex;
   }
-
 
   .blur {
     filter: blur(0.5rem);
@@ -150,18 +146,16 @@ footer ul li {
 
   .model-img {
     flex: 50%;
-    padding-bottom:-30px;
-    
+    padding-bottom: -30px;
   }
 
-  .model-description{
+  .model-description {
     flex: 50%;
     margin-left: 30px;
   }
 
   .model-btn {
-   
-  margin-top:110px;
+    margin-top: 205px;
   }
 }
 
@@ -613,8 +607,9 @@ button:hover::after {
     max-width: 1440px;
     margin: 0 auto;
   }
-  .card3{
-    height:100%;
+
+  .card3 {
+    height: 100%;
   }
 
   header {
