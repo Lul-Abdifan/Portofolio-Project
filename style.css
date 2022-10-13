@@ -120,18 +120,17 @@ footer ul li {
 @media all and (min-width: 768px) {
   .popup {
     overflow: hidden;
-    height: 631px;
-    width: 1156px;
+    height: 455px;
+    width: 965px;
     margin-top: 112px;
     margin-left: 142px;
     margin-right: 142px;
     margin-bottom: 112px;
     display: none;
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    
+
+ 
     z-index: 2;
     background-color: #fff;
   }
@@ -151,11 +150,8 @@ footer ul li {
 
   .model-img {
     flex: 50%;
-    /* width: 659px;
-    height: 448px;
-    float: left;
-    margin-top: 30px;
-    margin-right: 25px; */
+    padding-bottom:-30px;
+    
   }
 
   .model-description{
@@ -164,9 +160,8 @@ footer ul li {
   }
 
   .model-btn {
-    margin-right: 150px;
-    margin-top: 266px;
-    float: right;
+   
+  margin-top:110px;
   }
 }
 
