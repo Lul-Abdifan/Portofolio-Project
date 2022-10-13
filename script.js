@@ -22,37 +22,39 @@ document.querySelectorAll('.overlay_link').forEach((btn) => {
 /// popup window ///
 
 const projects = [
+ 
   {
     id: 'btn1',
-    name: 'Multi Post Stories',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    name: 'Data Dashboard HealthCare',
+    description: "  A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     live: 'https://lul-abdifan.github.io/Mobile_Portofolio/',
     source_code: 'https://github.com/Lul-Abdifan/Mobile_Portofolio',
     mobile_img: './assets/images/mobile_snap.png',
     tech: ['HTML', 'CSS', 'Javascript'],
   },
-  {
+{
     id: 'btn2',
-    name: 'Multi Post Stories',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    name: 'Website Portofolio                                 ',
+    description: " A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     live: 'https://lul-abdifan.github.io/Mobile_Portofolio/',
     source_code: 'https://github.com/Lul-Abdifan/Mobile_Portofolio',
-    mobile_img: './assets/images/mobile_snap.png',
+    mobile_img:'./assets/card3img.png',
     tech: ['HTML', 'CSS', 'Javascript'],
   },
+  
   {
     id: 'btn3',
-    name: 'Multi Post Stories',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    name: 'Profesional Art Printing Data More',
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     live: 'https://lul-abdifan.github.io/Mobile_Portofolio/',
     source_code: 'https://github.com/Lul-Abdifan/Mobile_Portofolio',
-    mobile_img: './assets/images/mobile_snap.png',
+    mobile_img: './assets/card5.png',
     tech: ['HTML', 'CSS', 'Javascript'],
   },
   {
     id: 'btn4',
-    name: 'Multi Post Stories',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    name: 'Data Dashboard HealthCare',
+    description: "  A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     live: 'https://lul-abdifan.github.io/Mobile_Portofolio/',
     source_code: 'https://github.com/Lul-Abdifan/Mobile_Portofolio',
     mobile_img: './assets/images/mobile_snap.png',
@@ -60,17 +62,8 @@ const projects = [
   },
   {
     id: 'btn5',
-    name: 'Multi Post Stories',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    live: 'https://lul-abdifan.github.io/Mobile_Portofolio/',
-    source_code: 'https://github.com/Lul-Abdifan/Mobile_Portofolio',
-    mobile_img: './assets/images/mobile_snap.png',
-    tech: ['HTML', 'CSS', 'Javascript'],
-  },
-  {
-    id: 'btn6',
-    name: 'Multi Post Stories',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    name: 'Website Portofolio',
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     live: 'https://lul-abdifan.github.io/Mobile_Portofolio/',
     source_code: 'https://github.com/Lul-Abdifan/Mobile_Portofolio',
     mobile_img: './assets/images/mobile_snap.png',
@@ -91,8 +84,7 @@ projects.forEach(project=>{
 })
 
 function renderAll(project){
-  return `
-  <div class="cards card2" >
+  return ` <div class="cards card3" >
   <h3 class="cards-header">${project.name}</h3>
    <div class="cards_description">
      <p>${project.description}
@@ -104,7 +96,7 @@ function renderAll(project){
    </ul>
  </div>
    <div class="seeProjectCards">
-     <button type="button" id="button_linkProj" class="btn1">See Project</button>  
+     <button type="button" id="button_linkProj" class="btn2">See Project</button>
    </div>
 </div>
 
@@ -147,7 +139,6 @@ function render(project) {
 
 
 </div>
-
 
   `;
 }

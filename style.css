@@ -613,6 +613,9 @@ button:hover::after {
     max-width: 1440px;
     margin: 0 auto;
   }
+  .card3{
+    height:100%;
+  }
 
   header {
     height: 72px;
