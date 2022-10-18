@@ -15,6 +15,6 @@ function close() {
   overlay.style.display = 'none';
   document.body.style.position = 'relative';
 }
-document.querySelectorAll('.overlay_link').forEach((btn) => {
-  btn.onclick = () => { close(); };
-});
+// document.querySelectorAll('.overlay_link').forEach((btn) => {
+//   btn.onclick = () => { close(); };
+// });
