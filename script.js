@@ -34,7 +34,7 @@ const projects = [
   },
   {
     id: 'btn2',
-    name: 'Website Portofolio                                 ',
+    name: 'Website Portofolio Project ',
     description: " A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     live: 'https://lul-abdifan.github.io/Portofolio-Project/',
     source_code: 'https://github.com/Lul-Abdifan/Portofolio-Project',
@@ -62,7 +62,7 @@ const projects = [
   },
   {
     id: 'btn5',
-    name: 'Website Portofolio',
+    name: 'Website Portofolio Project',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     live: 'https://lul-abdifan.github.io/Portofolio-Project/',
     source_code: 'https://github.com/Lul-Abdifan/Portofolio-Project',
