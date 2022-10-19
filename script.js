@@ -1,6 +1,6 @@
 const openBtn = document.getElementById('openBtn');
-const closeBtn = document.getElementById('closeBtn');
 const overlay = document.getElementById('overlay');
+const closeBtn = document.getElementById('closeBtn');
 
 openBtn.onclick = () => {
   overlay.style.display = 'block';
