@@ -105,45 +105,7 @@ projects.forEach((project) => {
   workSection.appendChild(div);
 });
 
-function render(project) {
-  return `
-  <div class="model">
-  <div class="model-heading">
-    <h1>${project.name}</h1>
-    <img src="./assets/images/close.svg" id="closePopup">
-  </div>
-  <div class="model-tech">
-    <ul>
-    
-    ${project.tech.map((t) => (`<li>${t}</li>`)).join('')}
-    </ul>
-  </div>
-  <div class="model-container">
-    <div class="model-img">
-    <img src="${project.mobile_img}">
-    </div>
-    <div class="model-description">
-    <p>
-    ${project.description}
-    </p>
-    <div class="model-btn">
-      <a href="${project.live}">See Live 
-        <img src="./assets/images/source.svg">
-      </a>
-      <a href="${project.source_code}">See Source
-        <img src="./assets/images/live.svg">
-      </a>
-      </div>
-  </div>
- 
 
- </div>
-
-
-</div>
-
-  `;
-}
 
 document.querySelectorAll('#button_linkProj').forEach((btn) => {
   btn.onclick = () => {
