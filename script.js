@@ -3,8 +3,8 @@ const overlay = document.getElementById('overlay');
 const closeBtn = document.getElementById('closeBtn');
 
 openBtn.onclick = () => {
-  overlay.style.display = 'block';
   document.body.style.position = 'fixed';
+  overlay.style.display = 'block';
 };
 
 closeBtn.onclick = () => {
