@@ -22,12 +22,33 @@ document.querySelectorAll('.overlay_link').forEach((btn) => {
 
 
 //local storage
-const name =document.getElementById('name');
-const email =document.getElementById('email');
-const comment =document.getElementById('comment');
+const nameInput =document.getElementById('name');
+const emailInput =document.getElementById('email');
+const commentInput =document.getElementById('comment');
+const formsInput =document.getElementById('formSubmit');
 
-document.getElementById('formSubmit').addEventListener('submit',function(e){
-  e.preventDefault();
-  
-
+window.addEventListener('load',function(){
+  getStoredData();
 })
+formsInput.forEach((input).addEventListener('change',function(){
+ saveData()
+}
+
+))
+
+function saveData(){
+  var datas={
+    name:nameInput.value.trim(),
+    email:emailInput.value.trim(),
+    comment:commentInput.value.trim()
+  };
+  localStorage.setItem("storedData",JSON.stringify(datas));
+}
+
+function getStoredData()
+{
+  const storedData =JSON.parse(localStorage.getItem(storedData));
+  nameInput.value=storedData.name;
+  emailInput.value=storedeData.email;
+  commentInput.value =storedData.comment;
+}
