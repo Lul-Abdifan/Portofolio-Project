@@ -19,21 +19,15 @@ document.querySelectorAll('.overlay_link').forEach((btn) => {
   btn.onclick = () => { close(); };
 });
 
-
-
-
-
-
-//validation
+// validation
 const showError = document.getElementById('showError');
 const formCheck = document.getElementById('formSubmit');
 
-formCheck.onsubmit = (e)=>{
-
-  const email =formCheck.elements[1];
+formCheck.onsubmit = (e) => {
+  const email = formCheck.elements[1];
   if (email.value.toLowerCase() !== email.value) {
     e.preventDefault();
     showError.textContent = 'The email must be in a lower case';
   }
   return true;
-}
+};
