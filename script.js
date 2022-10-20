@@ -22,3 +22,12 @@ document.querySelectorAll('.overlay_link').forEach((btn) => {
 
 
 //local storage
+const name =document.getElementById('name');
+const email =document.getElementById('email');
+const comment =document.getElementById('comment');
+
+document.getElementById('formSubmit').addEventListener('submit',function(e){
+  e.preventDefault();
+  
+
+})
