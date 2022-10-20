@@ -19,6 +19,20 @@ document.querySelectorAll('.overlay_link').forEach((btn) => {
   btn.onclick = () => { close(); };
 });
 
+// validation
+const showError = document.getElementById('showError');
+const formCheck = document.getElementById('formSubmit');
+
+formCheck.onsubmit = (e) => {
+  const email = formCheck.elements[1];
+  if (email.value.toLowerCase() !== email.value) {
+    e.preventDefault();
+    showError.textContent = 'The email must be in a lower case';
+  }
+  return true;
+};
+
+
 // local storage
 const nameInput = document.getElementById('name');
 const emailInput = document.getElementById('email');
@@ -43,3 +57,4 @@ document.getElementById('formSubmit').addEventListener('submit', (e) => {
   };
   localStorage.setItem('storedData', JSON.stringify(datas));
 });
+
