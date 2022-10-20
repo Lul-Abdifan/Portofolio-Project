@@ -19,39 +19,27 @@ document.querySelectorAll('.overlay_link').forEach((btn) => {
   btn.onclick = () => { close(); };
 });
 
+// local storage
+const nameInput = document.getElementById('name');
+const emailInput = document.getElementById('email');
+const commentInput = document.getElementById('comment');
 
-
-//local storage
-const nameInput =document.getElementById('name');
-const emailInput =document.getElementById('email');
-const commentInput =document.getElementById('comment');
-
-window.addEventListener('load',function(){
-  getStoredData();
-})
-
-
-function getStoredData()
-{
-  const storedData =JSON.parse(localStorage.getItem("storedData"));
-  nameInput.value=storedData.name;
-  emailInput.value=storedData.email;
-  commentInput.value =storedData.comment;
+function getStoredData() {
+  const storedData = JSON.parse(localStorage.getItem('storedData'));
+  nameInput.value = storedData.name;
+  emailInput.value = storedData.email;
+  commentInput.value = storedData.comment;
 }
+window.addEventListener('load', () => {
+  getStoredData();
+});
 
-
-document.getElementById('formSubmit').addEventListener('submit',(e)=>{
+document.getElementById('formSubmit').addEventListener('submit', (e) => {
   e.preventDefault();
-  const datas={
-    name:nameInput.value.trim(),
-    email:emailInput.value.trim(),
-    comment:commentInput.value.trim()
+  const datas = {
+    name: nameInput.value.trim(),
+    email: emailInput.value.trim(),
+    comment: commentInput.value.trim(),
   };
-  localStorage.setItem("storedData",JSON.stringify(datas));
-
-})
-
-
-
-
-
+  localStorage.setItem('storedData', JSON.stringify(datas));
+});
