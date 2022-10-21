@@ -216,12 +216,5 @@ document.querySelectorAll('#button_linkProj').forEach((btn) => {
   };
 });
 
-document.querySelectorAll(".card3").forEach((card)=>{
-  card.onmouseover = ()=>{  
-    card.childNodes[7].style.display = "block"
-  }
-  card.onmouseout = ()=>{  
-    card.childNodes[7].style.display = "none"
-  }
-})
+
 
