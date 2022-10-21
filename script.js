@@ -19,7 +19,6 @@ document.querySelectorAll('.overlay_link').forEach((btn) => {
   btn.onclick = () => { close(); };
 });
 
-
 /// popup window ///
 
 const projects = [
@@ -232,4 +231,3 @@ formCheck.onsubmit = (e) => {
   }
   return true;
 };
-
