@@ -40,8 +40,8 @@ const commentInput = document.getElementById('comment');
 function getStoredData() {
   const storedData = JSON.parse(localStorage.getItem('storedData'));
   nameInput.value = storedData.name;
-  emailInput.value = storedData.email;
   commentInput.value = storedData.comment;
+  emailInput.value = storedData.email;
 }
 
 document.getElementById('formSubmit').addEventListener('submit', (e) => {
