@@ -43,9 +43,6 @@ function getStoredData() {
   emailInput.value = storedData.email;
   commentInput.value = storedData.comment;
 }
-window.addEventListener('load', () => {
-  getStoredData();
-});
 
 document.getElementById('formSubmit').addEventListener('submit', (e) => {
   e.preventDefault();
@@ -55,4 +52,8 @@ document.getElementById('formSubmit').addEventListener('submit', (e) => {
     comment: commentInput.value.trim(),
   };
   localStorage.setItem('storedData', JSON.stringify(datas));
+});
+
+window.addEventListener('load', () => {
+  getStoredData();
 });
