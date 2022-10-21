@@ -177,23 +177,36 @@
         <h1 id="contact_header">I'm always interested in hearing about new projects, so if you'd like to chat 
             please get in touch.</h1></div>
             <div class="form_container">
-              <div id="showError">
 
-              </div>
+             
               <form action="https://formspree.io/f/xqkjqrwa" method="post" id="formSubmit">
+
+          
+
                              <label for="user_name" name="full_name"></label>
              <input type="text" maxlength="30" id="user_name" placeholder="Full name" required>
                       <img src="./assets/images/underInput.png" id="under_input">
                         <label for="user_email" name="Useremail"></label>
-                          <input type="email" id="user_email"placeholder="Email address" required>
 
+                         <input type="email" id="email"placeholder="Email address" required>
+                          
                            <div id="showError">  </div>
-                            <img src="./assets/images/underInput.png"  id="under_input">
-                                                      <label for="user_comment" name="comment"></label> 
 
- <textarea rows="7" cols="50" id="user_comment" maxlength="500" name="comment" placeholder="Enter text here" required>
-</textarea>
-                                  <label for="button_label"></label>
+                            <img src="./assets/images/underInput.png"  id="under_input">
+                           
+                                <label for="user_comment" name="comment"></label> 
+                         <textarea rows="7" 
+                            cols="50" 
+                            id="user_comment" 
+                            maxlength="500" 
+                            name="comment" 
+                            placeholder="Enter text here" 
+                            required>
+                           </textarea>
+                       <label for="button_label"></label>
+                       <div id="showError">
+
+                            </div>
                    <button type="submit" id="button_label">Get in touch</button>         
               
               </form>

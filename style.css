@@ -11,9 +11,22 @@
   margin-right: 20px;
 }
 
+
 .model-heading {
   display: flex;
   justify-content: space-between;
+
+#showError {
+  margin-right: 100px;
+  font-size: 12px;
+  color: red;
+  margin-top: 30px;
+  margin-bottom: -25px;
+}
+
+header .myLogo {
+  font-weight: bolder;
+
 }
 
 nav ul {

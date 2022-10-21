@@ -15,7 +15,8 @@ This is portofolio project. In this project, things like setting up html and css
 
 ## Live Demo 
 
-[Live Demo]https://github.com/Lul-Abdifan/Portofolio-Project
+[Live Demo](https://github.com/Lul-Abdifan/Portofolio-Project)
+
 
 
 
