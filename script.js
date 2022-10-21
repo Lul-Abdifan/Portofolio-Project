@@ -31,7 +31,7 @@ const projects = [
     source_code: 'https://github.com/Lul-Abdifan/Portofolio-Project',
     mobile_img: './assets/images/mobile_snap.png',
     tech: ['HTML', 'CSS', 'Javascript'],
-    newclass:true,
+    newclass: true,
   },
   {
     id: 'btn2',
@@ -86,17 +86,42 @@ const forbur = document.getElementById('forbur');
 
 const workSection = document.querySelector('.workSection');
 
+function renderOne() {
+  return `
+ <div class="card1_img">   
+  <img src="./assets/images/multi-Post-Story.png" class="multi_post">
+ </div>  
+     <div id="card1_container">
+      <h3 class="card-title">Multi-Post Stories</h3>
+       <div class="card1_description">
+          <p>A daily selection of privately personalized reads;
+              no accounts or sign-ups required. has been the industry's standard dummy
+              xt ever since the 1500s,
+              when an unknown printer took a standard dummy text.
+          </p>
+       </div>
+        <div class="cards_buttons">
+          <ul>
+             <li> <a href="#">  <button type="button" id="button_link">css</button></a></li>
+             <li> <a href="#">  <button type="button" id="button_link">html</button></a></li>
+             <li>  <a href="#">   <button type="button" id="button_link">bootstrap</button></a>
+             </li>
+             <li> <a href="#">  <button type="button" id="button_link">Ruby</button></a></li>
+         </ul>
+       </div>
+        <div class="seeProject">
+       <button type="button" class="btn1" id="button_linkProj">See Project</button>  
+       </div>
+     </div>
 
+  `;
+}
 
-
-let first_card = document.querySelector('.card1');
-first_card.innerHTML = renderOne()
-
-
+const firstCard = document.querySelector('.card1');
+firstCard.innerHTML = renderOne();
 
 function makeCard(project) {
-
-  return ` <div class="cards ${project.newclass ? "card2": "card3"}">
+  return ` <div class="cards ${project.newclass ? 'card2' : 'card3'}">
   <h3 class="cards-header">${project.name}</h3>
    <div class="cards_description">
      <p>${project.description}
@@ -165,8 +190,6 @@ function render(project) {
   `;
 }
 
-
-
 document.querySelectorAll('#button_linkProj').forEach((btn) => {
   btn.onclick = () => {
     popup.style.display = 'block';
@@ -187,12 +210,11 @@ document.querySelectorAll('#button_linkProj').forEach((btn) => {
   };
 });
 
-document.querySelectorAll(".card3").forEach((card)=>{
-  card.onmouseover = ()=>{  
-    card.childNodes[7].style.display = "block"
-  }
-  card.onmouseout = ()=>{  
-    card.childNodes[7].style.display = "none"
-  }
-})
-
+document.querySelectorAll('.card3').forEach((card) => {
+  card.onmouseover = () => {
+    card.childNodes[7].style.display = 'block';
+  };
+  card.onmouseout = () => {
+    card.childNodes[7].style.display = 'none';
+  };
+});
