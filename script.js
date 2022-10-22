@@ -231,3 +231,32 @@ formCheck.onsubmit = (e) => {
   }
   return true;
 };
+
+// preserve data in the browse
+
+const contactName = document.getElementById('name');
+const contactMessage = document.getElementById('comment');
+const contactEmail = document.getElementById('email');
+
+if (localStorage.getItem('Storer')) {
+  const data = JSON.parse(localStorage.getItem('Storer'));
+  contactName.value = data.name;
+  contactEmail.value = data.email;
+  contactMessage.value = data.message;
+}
+
+function storeToLS(data) {
+  const dict = JSON.parse(localStorage.getItem('Storer'));
+  const newdict = { ...dict, ...data };
+  localStorage.setItem('Storer', JSON.stringify({ ...newdict }));
+}
+
+contactName.onchange = (e) => {
+  storeToLS({ name: e.target.value });
+};
+contactEmail.onchange = (e) => {
+  storeToLS({ email: e.target.value });
+};
+contactMessage.onchange = (e) => {
+  storeToLS({ message: e.target.value });
+};
