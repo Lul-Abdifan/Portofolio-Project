@@ -232,7 +232,6 @@ formCheck.onsubmit = (e) => {
   return true;
 };
 
-
 // preserve data in the browser
 const nameInput = document.getElementById('name');
 const emailInput = document.getElementById('email');
