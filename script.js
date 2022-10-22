@@ -37,16 +37,15 @@ const nameInput = document.getElementById('name');
 const emailInput = document.getElementById('email');
 const commentInput = document.getElementById('comment');
 
-
-
 document.getElementById('formSubmit').addEventListener('submit', () => {
-
   const datas = {
     name: nameInput.value.trim(),
     email: emailInput.value.trim(),
     comment: commentInput.value.trim(),
   };
-  localStorage.setItem('storedData', JSON.stringify(datas));
+  if (datas.name && datas.email && datas.comment) {
+    localStorage.setItem('storedData', JSON.stringify(datas));
+  }
 });
 
 function getStoredData() {
