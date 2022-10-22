@@ -232,29 +232,31 @@ formCheck.onsubmit = (e) => {
   return true;
 };
 
-// preserve data in the browser
-const nameInput = document.getElementById('name');
-const emailInput = document.getElementById('email');
-const commentInput = document.getElementById('comment');
+// preserve data in the browse
 
-document.getElementById('formSubmit').addEventListener('submit', () => {
-  const datas = {
-    name: nameInput.value.trim(),
-    email: emailInput.value.trim(),
-    comment: commentInput.value.trim(),
-  };
-  if (datas.name && datas.email && datas.comment) {
-    localStorage.setItem('storedData', JSON.stringify(datas));
-  }
-});
+const contactName = document.getElementById('name');
+const contactMessage = document.getElementById('comment');
+const contactEmail = document.getElementById('email');
 
-function getStoredData() {
-  const storedData = JSON.parse(localStorage.getItem('storedData'));
-  nameInput.value = storedData.name;
-  commentInput.value = storedData.comment;
-  emailInput.value = storedData.email;
+if (localStorage.getItem('Storer')) {
+  const data = JSON.parse(localStorage.getItem('Storer'));
+  contactName.value = data.name;
+  contactEmail.value = data.email;
+  contactMessage.value = data.message;
 }
 
-window.addEventListener('load', () => {
-  getStoredData();
-});
+function storeToLS(data) {
+  const dict = JSON.parse(localStorage.getItem('Storer'));
+  const newdict = { ...dict, ...data };
+  localStorage.setItem('Storer', JSON.stringify({ ...newdict }));
+}
+
+contactName.onchange = (e) => {
+  storeToLS({ name: e.target.value });
+};
+contactEmail.onchange = (e) => {
+  storeToLS({ email: e.target.value });
+};
+contactMessage.onchange = (e) => {
+  storeToLS({ message: e.target.value });
+};
