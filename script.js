@@ -44,8 +44,7 @@ function getStoredData() {
   emailInput.value = storedData.email;
 }
 
-document.getElementById('formSubmit').addEventListener('submit', (e) => {
-  e.preventDefault();
+document.getElementById('formSubmit').addEventListener('submit', () => {
   const datas = {
     name: nameInput.value.trim(),
     email: emailInput.value.trim(),
