@@ -50,7 +50,9 @@ document.getElementById('formSubmit').addEventListener('submit', () => {
     email: emailInput.value.trim(),
     comment: commentInput.value.trim(),
   };
+  if(datas.name && datas.email && datas.comment){
   localStorage.setItem('storedData', JSON.stringify(datas));
+  }
 });
 
 window.addEventListener('load', () => {
